@@ -2,9 +2,10 @@
   <header class="site-header">
     <div class="container">
       <div class="header-content">
-        <router-link to="/" class="logo" @click="closeMenu">
+        <a href="/" class="logo" @click="closeMenu">
+          <img src="/images/logo.webp" alt="The Forge Game" class="logo-image">
           <span class="logo-text">The Forge Game</span>
-        </router-link>
+        </a>
         <button class="menu-toggle" @click="toggleMenu" aria-label="Toggle menu">
           <span class="hamburger-line" :class="{ active: isMenuOpen }"></span>
           <span class="hamburger-line" :class="{ active: isMenuOpen }"></span>
@@ -12,11 +13,11 @@
         </button>
         <div class="menu-overlay" :class="{ open: isMenuOpen }" @click="closeMenu"></div>
         <nav class="nav-links" :class="{ open: isMenuOpen }">
-          <router-link to="/" @click="closeMenu">Home</router-link>
-          <router-link to="/wiki" @click="closeMenu">Wiki</router-link>
-          <router-link to="/codes" @click="closeMenu">Codes</router-link>
-          <router-link to="/calculator" @click="closeMenu">Calculator</router-link>
-          <router-link to="/guides" @click="closeMenu">Guides</router-link>
+          <a href="/" @click="closeMenu">Home</a>
+          <a href="/wiki" @click="closeMenu">Wiki</a>
+          <a href="/codes" @click="closeMenu">Codes</a>
+          <a href="/calculator" @click="closeMenu">Calculator</a>
+          <a href="/guides" @click="closeMenu">Guides</a>
           <div class="nav-dropdown" @mouseenter="showTierDropdown = true" @mouseleave="showTierDropdown = false">
             <button class="nav-dropdown-toggle" :class="{ active: showTierDropdown }">
               Tier List
@@ -25,9 +26,9 @@
               </svg>
             </button>
             <div class="nav-dropdown-menu" :class="{ show: showTierDropdown }">
-              <router-link to="/tier-list/pickaxes" @click="closeMenu">Pickaxes</router-link>
-              <router-link to="/tier-list/races" @click="closeMenu">Races</router-link>
-              <router-link to="/tier-list/weapons" @click="closeMenu">Weapons</router-link>
+              <a href="/tier-list/pickaxes" @click="closeMenu">Pickaxes</a>
+              <a href="/tier-list/races" @click="closeMenu">Races</a>
+              <a href="/tier-list/weapons" @click="closeMenu">Weapons</a>
             </div>
           </div>
         </nav>
@@ -79,6 +80,12 @@ const closeMenu = () => {
   position: relative;
 }
 
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
 .logo-text {
   font-size: 1.4rem;
   font-weight: 700;
@@ -87,11 +94,6 @@ const closeMenu = () => {
   text-transform: uppercase;
   text-shadow: 0 0 20px rgba(255, 140, 66, 0.6);
   transition: all 0.3s ease;
-}
-
-.logo:hover .logo-text {
-  text-shadow: 0 0 30px rgba(255, 140, 66, 0.8);
-  transform: scale(1.05);
 }
 
 .menu-toggle {

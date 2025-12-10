@@ -4,6 +4,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="footer-logo">
+            <img src="/images/logo.webp" alt="The Forge Game" class="logo-image">
             <span class="logo-text">The Forge Game</span>
           </div>
           <p class="footer-text">
@@ -13,21 +14,21 @@
         <div class="link-column">
           <h2>Navigate</h2>
           <ul>
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/wiki">Wiki</router-link></li>
-            <li><router-link to="/codes">Codes</router-link></li>
-            <li><router-link to="/calculator">Calculator</router-link></li>
-            <li><router-link to="/guides">Guides</router-link></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/wiki">Wiki</a></li>
+            <li><a href="/codes">Codes</a></li>
+            <li><a href="/calculator">Calculator</a></li>
+            <li><a href="/guides">Guides</a></li>
           </ul>
         </div>
         <div class="link-column">
           <h2>Legal</h2>
           <ul>
-            <li><router-link to="/privacy-policy">Privacy Policy</router-link></li>
-            <li><router-link to="/terms-of-service">Terms of Service</router-link></li>
-            <li><router-link to="/copyright">Copyright</router-link></li>
-            <li><router-link to="/about-us">About Us</router-link></li>
-            <li><router-link to="/contact-us">Contact Us</router-link></li>
+            <li><a href="/privacy-policy" rel="noopener noreferrer nofollow">Privacy Policy</a></li>
+            <li><a href="/terms-of-service" rel="noopener noreferrer nofollow">Terms of Service</a></li>
+            <li><a href="/copyright" rel="noopener noreferrer nofollow">Copyright</a></li>
+            <li><a href="/about-us" rel="noopener noreferrer nofollow">About Us</a></li>
+            <li><a href="/contact-us" rel="noopener noreferrer nofollow">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -61,6 +62,12 @@
   align-items: center;
   gap: 16px;
   margin-bottom: 16px;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
 .logo-text {

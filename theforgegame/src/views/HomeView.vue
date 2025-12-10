@@ -443,8 +443,8 @@
               <a
                 href="https://www.roblox.com/games/76558904092080/The-Forge-BETA"
                 target="_blank"
-                rel="noopener noreferrer"
                 class="btn-game-link"
+                rel="noopener noreferrer nofollow"
               >
                 Play The Forge on Roblox
               </a>
