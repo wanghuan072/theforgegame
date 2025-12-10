@@ -26,9 +26,9 @@
               </svg>
             </button>
             <div class="nav-dropdown-menu" :class="{ show: showTierDropdown }">
-              <a href="/tier-list/pickaxes" @click="closeMenu">Pickaxes</a>
-              <a href="/tier-list/races" @click="closeMenu">Races</a>
-              <a href="/tier-list/weapons" @click="closeMenu">Weapons</a>
+              <a href="/pickaxes-tier-list" @click="closeMenu">Pickaxes</a>
+              <a href="/races-tier-list" @click="closeMenu">Races</a>
+              <a href="/weapons-tier-list" @click="closeMenu">Weapons</a>
             </div>
           </div>
         </nav>

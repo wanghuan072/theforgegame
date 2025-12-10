@@ -109,21 +109,21 @@
                 <div class="feature-item-compact">
                   <div class="feature-icon">🧪</div>
                   <div class="feature-content">
-                    <h4>Alloy Multiplier</h4>
+                    <h3>Alloy Multiplier</h3>
                     <p>Weighted average calculation with dilution warnings</p>
                   </div>
                 </div>
                 <div class="feature-item-compact">
                   <div class="feature-icon">✨</div>
                   <div class="feature-content">
-                    <h4>Trait Activation</h4>
+                    <h3>Trait Activation</h3>
                     <p>Track progress at 10% and 30% thresholds</p>
                   </div>
                 </div>
                 <div class="feature-item-compact">
                   <div class="feature-icon">🎯</div>
                   <div class="feature-content">
-                    <h4>Type & Damage</h4>
+                    <h3>Type & Damage</h3>
                     <p>Probability odds and damage range preview</p>
                   </div>
                 </div>

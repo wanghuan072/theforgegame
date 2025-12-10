@@ -195,7 +195,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/tier-list/pickaxes',
+      path: '/pickaxes-tier-list',
       name: 'tier-list-pickaxes',
       component: () => import('../views/tier-list/TierListView.vue'),
       meta: {
@@ -205,7 +205,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/tier-list/races',
+      path: '/races-tier-list',
       name: 'tier-list-races',
       component: () => import('../views/tier-list/TierListView.vue'),
       meta: {
@@ -215,7 +215,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/tier-list/weapons',
+      path: '/weapons-tier-list',
       name: 'tier-list-weapons',
       component: () => import('../views/tier-list/TierListView.vue'),
       meta: {
