@@ -539,7 +539,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 32px;
+  padding: 10px 30px;
   border-radius: 999px;
   font-weight: 600;
   text-decoration: none;
