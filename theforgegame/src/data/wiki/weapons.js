@@ -1,0 +1,290 @@
+export default [
+  // --- Daggers (匕首类) ---
+  {
+    id: 1,
+    title: 'Dagger',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 4.3<br />Speed: 0.35s<br />Range: 6',
+    imageUrl: '/images/wiki/weapons/Weapon01.webp',
+    imageAlt: 'Dagger',
+    publishDate: '2025-12-08',
+    type: 'dagger',
+  },
+  {
+    id: 2,
+    title: 'Falchion Knife',
+    chanceToCraft: '1/2',
+    stats: 'Damage: 4.3<br />Speed: 0.35s<br />Range: 6',
+    imageUrl: '/images/wiki/weapons/Weapon02.webp',
+    imageAlt: 'Falchion Knife',
+    publishDate: '2025-12-08',
+    type: 'dagger',
+  },
+  {
+    id: 3,
+    title: 'Gladius Dagger',
+    chanceToCraft: '1/4',
+    stats: 'Damage: 4.3<br />Speed: 0.32s<br />Range: 6',
+    imageUrl: '/images/wiki/weapons/Weapon03.webp',
+    imageAlt: 'Gladius Dagger',
+    publishDate: '2025-12-08',
+    type: 'dagger',
+  },
+  {
+    id: 4,
+    title: 'Hook',
+    chanceToCraft: '1/16',
+    stats: 'Damage: 4.3<br />Speed: 0.35s<br />Range: 6',
+    imageUrl: '/images/wiki/weapons/Weapon04.webp',
+    imageAlt: 'Hook',
+    publishDate: '2025-12-08',
+    type: 'dagger',
+  },
+
+   // --- Great Swords (大剑类) ---
+   {
+    id: 5,
+    title: 'Crusaders Sword',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 12.0<br />Speed: 1.0s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon05.webp',
+    imageAlt: 'Crusaders Sword',
+    publishDate: '2025-12-08',
+    type: 'great_sword',
+  },
+  {
+    id: 6,
+    title: 'Long Sword',
+    chanceToCraft: '1/2',
+    stats: 'Damage: 12.0<br />Speed: 1.1s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon06.webp',
+    imageAlt: 'Long Sword',
+    publishDate: '2025-12-08',
+    type: 'great_sword',
+  },
+
+  // --- Great Axes (大斧类) ---
+  {
+    id: 7,
+    title: 'Double Battle Axe',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 15.75<br />Speed: 1.05s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon07.webp',
+    imageAlt: 'Double Battle Axe',
+    publishDate: '2025-12-08',
+    type: 'great_axe',
+  },
+  {
+    id: 8,
+    title: 'Scythe',
+    chanceToCraft: '1/32 (Rare)',
+    stats: 'Damage: 14.25<br />Speed: 0.95s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon08.webp',
+    imageAlt: 'Scythe',
+    publishDate: '2025-12-08',
+    type: 'great_axe',
+  },
+
+  // --- Katanas (太刀类) ---
+  {
+    id: 9,
+    title: 'Uchigatana',
+    chanceToCraft: '1/11',
+    stats: 'Damage: 8.5<br />Speed: 0.6s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon09.webp',
+    imageAlt: 'Uchigatana',
+    publishDate: '2025-12-08',
+    type: 'katana',
+  },
+  {
+    id: 10,
+    title: 'Tachi',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 8.925<br />Speed: 0.63s<br />Range: 9',
+    imageUrl: '/images/wiki/weapons/Weapon10.webp',
+    imageAlt: 'Tachi',
+    publishDate: '2025-12-08',
+    type: 'katana',
+  },
+
+  // --- Straight Swords (直剑类) ---
+  {
+    id: 11,
+    title: 'Falchion Sword',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 7.5<br />Speed: 0.59s<br />Range: 8',
+    imageUrl: '/images/wiki/weapons/Weapon11.webp',
+    imageAlt: 'Falchion Sword',
+    publishDate: '2025-12-08',
+    type: 'straight_sword',
+  },
+  {
+    id: 12,
+    title: 'Gladius Sword',
+    chanceToCraft: '1/2',
+    stats: 'Damage: 7.875<br />Speed: 0.62s<br />Range: 8',
+    imageUrl: '/images/wiki/weapons/Weapon12.webp',
+    imageAlt: 'Gladius Sword',
+    publishDate: '2025-12-08',
+    type: 'straight_sword',
+  },
+  {
+    id: 13,
+    title: 'Cutlass',
+    chanceToCraft: '1/4',
+    stats: 'Damage: 9.375<br />Speed: 0.66s<br />Range: 8',
+    imageUrl: '/images/wiki/weapons/Weapon13.webp',
+    imageAlt: 'Cutlass',
+    publishDate: '2025-12-08',
+    type: 'straight_sword',
+  },
+  {
+    id: 14,
+    title: 'Rapier',
+    chanceToCraft: '1/8',
+    stats: 'Damage: 8.25<br />Speed: 0.54s<br />Range: 8',
+    imageUrl: '/images/wiki/weapons/Weapon14.webp',
+    imageAlt: 'Rapier',
+    publishDate: '2025-12-08',
+    type: 'straight_sword',
+  },
+  {
+    id: 15,
+    title: 'Chaos',
+    chanceToCraft: '1/64 (Rare)',
+    stats: 'Damage: 9.375<br />Speed: 0.59s<br />Range: 8',
+    imageUrl: '/images/wiki/weapons/Weapon15.webp',
+    imageAlt: 'Chaos Sword',
+    publishDate: '2025-12-08',
+    type: 'straight_sword',
+  },
+
+  // --- Gauntlets (拳套类) ---
+  {
+    id: 16,
+    title: 'Ironhand',
+    chanceToCraft: '1/1 (Common)',
+    stats: 'Damage: 15.2<br />Speed: 0.51s<br />Range: N/A',
+    imageUrl: '/images/wiki/weapons/Weapon16.webp',
+    imageAlt: 'Ironhand',
+    publishDate: '2025-12-08',
+    type: 'gauntlet',
+  },
+  {
+    id: 17,
+    title: 'Boxing Gloves',
+    chanceToCraft: '1/3',
+    stats: 'Damage: 16.0<br />Speed: 0.59s<br />Range: N/A',
+    imageUrl: '/images/wiki/weapons/Weapon17.webp',
+    imageAlt: 'Boxing Gloves',
+    publishDate: '2025-12-08',
+    type: 'gauntlet',
+  },
+  {
+    id: 18,
+    title: 'Relevator',
+    chanceToCraft: '1/9',
+    stats: 'Damage: 19.2<br />Speed: 0.69s<br />Range: N/A',
+    imageUrl: '/images/wiki/weapons/Weapon18.webp',
+    imageAlt: 'Relevator',
+    publishDate: '2025-12-08',
+    type: 'gauntlet',
+  },
+
+  // --- Colossal Swords (巨剑类) ---
+  {
+    id: 19,
+    title: 'Great Sword',
+    chanceToCraft: '1/1',
+    stats: 'Damage: 20<br />Speed: 1.12 s<br />Range: 10<br />Selling price: 1355g',
+    imageUrl: '/images/wiki/weapons/Weapon19.webp',
+    imageAlt: 'Great Sword',
+    publishDate: '2025-12-08',
+    type: 'colossal_sword',
+  },
+  {
+    id: 20,
+    title: 'Hammer',
+    chanceToCraft: '1/2',
+    stats: 'Damage: 22<br />Speed: 1.24 s<br />Range: 10<br />Selling price: 1355g',
+    imageUrl: '/images/wiki/weapons/Weapon20.webp',
+    imageAlt: 'Hammer',
+    publishDate: '2025-12-08',
+    type: 'colossal_sword',
+  },
+  {
+    id: 21,
+    title: 'Skull Crusher',
+    chanceToCraft: '1/2',
+    stats: 'Damage: 24<br />Speed: 1.4 s<br />Range: 10<br />Selling price: 1355g',
+    imageUrl: '/images/wiki/weapons/Weapon21.webp',
+    imageAlt: 'Skull Crusher',
+    publishDate: '2025-12-08',
+    type: 'colossal_sword',
+  },
+  {
+    id: 22,
+    title: 'Dragon Slayer',
+    chanceToCraft: '1/3',
+    stats: 'Damage: 22<br />Speed: 1.12 s<br />Range: 10<br />Selling price: 1355g',
+    imageUrl: '/images/wiki/weapons/Weapon22.webp',
+    imageAlt: 'Dragon Slayer',
+    publishDate: '2025-12-08',
+    type: 'colossal_sword',
+  },
+  {
+    id: 23,
+    title: 'Comically Large Spoon',
+    chanceToCraft: '1/16',
+    stats: 'Damage: 18<br />Speed: 1.2 s<br />Range: 10<br />Selling price: 1355g',
+    imageUrl: '/images/wiki/weapons/Weapon23.webp',
+    imageAlt: 'Comically Large Spoon',
+    publishDate: '2025-12-08',
+    type: 'colossal_sword',
+  },
+
+  
+
+
+   // {
+  //   id: 1,
+  //   title: '',
+  //   description: '',
+  //   imageUrl: 'https://picsum.photos/800/450?random=3',
+  //   imageAlt: '',
+  //   publishDate: '2025-12-08',
+  //   type: 'sword',
+  //   addressBar: '/',
+  //   showDetail: false,
+  //   seo: {
+  //     title: '',
+  //     description: 'Learn about Iron Sword in The Forge.',
+  //     keywords: 'iron sword, the forge, weapons'
+  //   },
+  //   detailsHtml: `
+  //     <h2>Iron Sword</h2>
+  //     <p>Iron Sword is a basic sword forged from iron.</p>
+  //   `
+  // },
+  // {
+  //   id: 2,
+  //   title: 'Steel Axe',
+  //   description: 'A powerful axe made from steel.',
+  //   imageUrl: 'https://picsum.photos/800/450?random=4',
+  //   imageAlt: 'Steel Axe',
+  //   publishDate: '2025-12-01',
+  //   type: 'axe',
+  //   addressBar: '/steel-axe',
+  //   showDetail: true,
+  //   seo: {
+  //     title: 'Steel Axe - The Forge Wiki - theforgegame.com',
+  //     description: 'Learn about Steel Axe in The Forge.',
+  //     keywords: 'steel axe, the forge, weapons'
+  //   },
+  //   detailsHtml: `
+  //     <h2>Steel Axe</h2>
+  //     <p>Steel Axe is a powerful axe made from steel.</p>
+  //   `
+  // },
+]
+

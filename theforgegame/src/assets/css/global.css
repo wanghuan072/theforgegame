@@ -1,0 +1,564 @@
+:root {
+  --bg: #0a0a0a;
+  --bg-soft: #1a1a1a;
+  --card: rgba(20, 20, 20, 0.92);
+  --accent: #ff8c42;
+  --accent-soft: #ffb366;
+  --accent-gold: #ffd700;
+  --text: #f5f5f5;
+  --text-soft: rgba(255, 255, 255, 0.7);
+  --grid-color: rgba(255, 140, 66, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+body::before {
+  content: '';
+  position: fixed;  
+  inset: 0;
+  background: url('/images/bg.webp') center/cover no-repeat fixed;
+  z-index: -2;
+  pointer-events: none;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(180deg, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(20, 15, 10, 0.6), rgba(15, 10, 5, 0.55));
+  background-size:
+    55px 55px,
+    55px 55px,
+    auto;
+  opacity: 1;
+  pointer-events: none;
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Page Header Styles - 公共内页头部样式 */
+.page-header {
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.page-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0 0 20px 0;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-soft);
+  margin: 0;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Page Header 移动端响应式 */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 20px 0;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .page-subtitle {
+    font-size: 0.8rem;
+  }
+}
+
+/* Detail Article Styles - 公共详情页样式 */
+.detail-article {
+  overflow: hidden;
+}
+
+.detail-article h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(255, 140, 66, 0.3);
+  position: relative;
+}
+
+.detail-article h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 20px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.detail-article h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 24px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-soft) 100%);
+  border-radius: 2px;
+}
+
+.detail-article h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.detail-article h4::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  font-size: 12px;
+}
+
+.detail-article p {
+  color: var(--text-soft);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.detail-article strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.detail-article ul,
+.detail-article ol {
+  color: var(--text-soft);
+  margin-bottom: 20px;
+  padding-left: 16px;
+}
+
+.detail-article li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.detail-article ul li::marker {
+  color: var(--accent);
+}
+
+.detail-article ol li::marker {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.detail-article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.detail-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.detail-article table th,
+.detail-article table td {
+  padding: 10px;
+  border: 1px solid rgba(255, 140, 66, 0.2);
+}
+
+.detail-article a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.detail-article a:hover {
+  color: var(--accent-soft);
+}
+
+.detail-article .inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 140, 66, 0.3);
+  transition: all 0.3s ease;
+}
+
+.detail-article .inline-link:hover {
+  color: var(--accent-soft);
+  border-bottom-color: var(--accent);
+  text-shadow: 0 0 8px rgba(255, 140, 66, 0.5);
+}
+
+/* Detail Article 移动端响应式 */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .detail-article {
+    padding: 0;
+  }
+
+  .detail-article p {
+    font-size: 12px;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .detail-article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .detail-article h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .detail-article h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .detail-article ul,
+  .detail-article ol {
+    margin-bottom: 10px;
+    padding-left: 12px;
+  }
+
+  .detail-article li {
+    margin-bottom: 10px;
+    font-size: 12px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .detail-article table {
+    margin-bottom: 10px;
+    font-size: 12px;
+    overflow-x: auto;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .detail-article table th,
+  .detail-article table td {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .detail-article img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Wiki Table Styles - 公共Wiki表格样式 */
+.table-section {
+  margin-bottom: 60px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid rgba(255, 140, 66, 0.3);
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.section-count {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  font-weight: 500;
+}
+
+.table-container {
+  background: rgba(25, 20, 15, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 140, 66, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.wiki-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  table-layout: fixed; /* 保证多表格列宽一致 */
+}
+
+.wiki-table thead {
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.15) 0%, rgba(255, 179, 102, 0.1) 100%);
+}
+
+.wiki-table th {
+  padding: 12px 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid rgba(255, 140, 66, 0.3);
+}
+
+.wiki-table tbody tr {
+  border-bottom: 1px solid rgba(255, 140, 66, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.wiki-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.wiki-table tbody tr:hover {
+  background: rgba(255, 140, 66, 0.1);
+}
+
+.wiki-table td {
+  padding: 12px 20px;
+  vertical-align: middle;
+}
+
+/* Preview Column */
+.preview-col {
+  width: 120px;
+}
+
+.preview-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.preview-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 140, 66, 0.3);
+}
+
+.wiki-table tbody tr:hover .preview-thumb {
+  border-color: rgba(255, 140, 66, 0.6);
+  transform: scale(1.05);
+}
+
+/* Name Column */
+.name-col {
+  width: 200px;
+  min-width: 150px;
+}
+
+.name-primary {
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Description Column */
+.desc-col {
+  width: auto;
+}
+
+.desc-cell {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Type Column */
+.type-col {
+  width: 140px;
+}
+
+.type-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.type-pill {
+  display: inline-block;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, rgba(255, 140, 66, 0.2) 0%, rgba(255, 179, 102, 0.15) 100%);
+  border: 1px solid rgba(255, 140, 66, 0.3);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent-soft);
+  text-transform: capitalize;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+/* 内页通用样式 */
+.page-container {
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+/* Loading & Error States - 通用加载和错误状态样式 */
+.loading-state,
+.error-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-soft);
+}
+
+.error-state {
+  color: #ff6b6b;
+}
+
+/* Wiki Table 移动端响应式 */
+@media (max-width: 768px) {
+  .table-section {
+    margin-bottom: 40px;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-count {
+    font-size: 0.85rem;
+  }
+
+  .table-container {
+    border-radius: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .wiki-table {
+    min-width: 600px;
+  }
+
+  .wiki-table th {
+    padding: 10px 16px;
+    font-size: 0.8rem;
+  }
+
+  .wiki-table td {
+    padding: 10px 16px;
+  }
+
+  .preview-col {
+    width: 100px;
+  }
+
+  .preview-thumb {
+    width: 60px;
+    height: 60px;
+  }
+
+  .name-col {
+    width: 150px;
+    min-width: 120px;
+  }
+
+  .name-primary {
+    font-size: 0.9rem;
+  }
+
+  .desc-cell {
+    font-size: 0.85rem;
+  }
+
+  .type-col {
+    width: 100px;
+  }
+
+  .type-pill {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+  }
+}
+
