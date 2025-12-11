@@ -4,7 +4,7 @@ export default [
     id: 1,
     name: 'Angel',
     tier: 'S',
-    imageUrl: '/images/tier-list/races/angel.webp',
+    imageUrl: '/images/tier/races/race01.webp',
     imageAlt: 'Angel',
     pros: [
       'Meta-defining race with top-tier damage, utility and safety.',
@@ -16,7 +16,7 @@ export default [
     id: 2,
     name: 'Demon',
     tier: 'S',
-    imageUrl: '/images/tier-list/races/demon.webp',
+    imageUrl: '/images/tier/races/race02.webp',
     imageAlt: 'Demon',
     pros: [
       'Meta-defining race with top-tier damage, utility and safety.',
@@ -29,7 +29,7 @@ export default [
     id: 3,
     name: 'Dragonborn',
     tier: 'A',
-    imageUrl: '/images/tier-list/races/dragonborn.webp',
+    imageUrl: '/images/tier/races/race03.webp',
     imageAlt: 'Dragonborn',
     pros: [
       'Extremely strong race with great stats or economy.',
@@ -41,7 +41,7 @@ export default [
     id: 4,
     name: 'Minotaur',
     tier: 'A',
-    imageUrl: '/images/tier-list/races/minotaur.webp',
+    imageUrl: '/images/tier/races/race04.webp',
     imageAlt: 'Minotaur',
     pros: [
       'Extremely strong race with great stats or economy.',
@@ -53,7 +53,7 @@ export default [
     id: 5,
     name: 'Golem',
     tier: 'A',
-    imageUrl: '/images/tier-list/races/golem.webp',
+    imageUrl: '/images/tier/races/race05.webp',
     imageAlt: 'Golem',
     pros: [
       'Extremely strong race with great stats or economy.',
@@ -66,7 +66,7 @@ export default [
     id: 6,
     name: 'Shadow',
     tier: 'B',
-    imageUrl: '/images/tier-list/races/shadow.webp',
+    imageUrl: '/images/tier/races/race06.webp',
     imageAlt: 'Shadow',
     pros: [
       'Strong race that feels great with the right playstyle.'
@@ -79,7 +79,7 @@ export default [
     id: 7,
     name: 'Dwarf',
     tier: 'B',
-    imageUrl: '/images/tier-list/races/dwarf.webp',
+    imageUrl: '/images/tier/races/race07.webp',
     imageAlt: 'Dwarf',
     pros: [
       'Strong race that feels great with the right playstyle.'
@@ -93,7 +93,7 @@ export default [
     id: 8,
     name: 'Orc',
     tier: 'C',
-    imageUrl: '/images/tier-list/races/orc.webp',
+    imageUrl: '/images/tier/races/race08.webp',
     imageAlt: 'Orc',
     pros: [
       'Usable race that works fine.'
@@ -106,7 +106,7 @@ export default [
     id: 9,
     name: 'Goblin',
     tier: 'C',
-    imageUrl: '/images/tier-list/races/goblin.webp',
+    imageUrl: '/images/tier/races/race09.webp',
     imageAlt: 'Goblin',
     pros: [
       'Usable race that works fine.'
@@ -119,7 +119,7 @@ export default [
     id: 10,
     name: 'Undead',
     tier: 'C',
-    imageUrl: '/images/tier-list/races/undead.webp',
+    imageUrl: '/images/tier/races/race10.webp',
     imageAlt: 'Undead',
     pros: [
       'Usable race that works fine.'
@@ -133,7 +133,7 @@ export default [
     id: 11,
     name: 'Elf',
     tier: 'D',
-    imageUrl: '/images/tier-list/races/elf.webp',
+    imageUrl: '/images/tier/races/race11.webp',
     imageAlt: 'Elf',
     pros: [
       'Playable race.'
@@ -146,7 +146,7 @@ export default [
     id: 12,
     name: 'Zombie',
     tier: 'D',
-    imageUrl: '/images/tier-list/races/zombie.webp',
+    imageUrl: '/images/tier/races/race12.webp',
     imageAlt: 'Zombie',
     pros: [
       'Playable race.'
@@ -160,7 +160,7 @@ export default [
     id: 13,
     name: 'Human',
     tier: 'F',
-    imageUrl: '/images/tier-list/races/human.webp',
+    imageUrl: '/images/tier/races/race13.webp',
     imageAlt: 'Human',
     pros: [
       'Starter race that works early on.'

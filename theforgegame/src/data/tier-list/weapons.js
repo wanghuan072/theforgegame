@@ -4,7 +4,7 @@ export default [
     id: 1,
     name: 'Dragon Slayer',
     tier: 'S',
-    imageUrl: '/images/tier-list/weapons/dragon-slayer.webp',
+    imageUrl: '/images/tier/weapons/weapon01.webp',
     imageAlt: 'Dragon Slayer',
     pros: [
       'Meta-defining weapon that excels in almost any situation.',
@@ -16,7 +16,7 @@ export default [
     id: 2,
     name: 'Chaos Sword',
     tier: 'S',
-    imageUrl: '/images/tier-list/weapons/chaos-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon02.webp',
     imageAlt: 'Chaos Sword',
     pros: [
       'Meta-defining weapon that excels in almost any situation.',
@@ -28,7 +28,7 @@ export default [
     id: 3,
     name: 'Hammer',
     tier: 'S',
-    imageUrl: '/images/tier-list/weapons/hammer.webp',
+    imageUrl: '/images/tier/weapons/weapon03.webp',
     imageAlt: 'Hammer',
     pros: [
       'Meta-defining weapon that excels in almost any situation.',
@@ -41,7 +41,7 @@ export default [
     id: 4,
     name: 'Great Sword',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/great-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon04.webp',
     imageAlt: 'Great Sword',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -53,7 +53,7 @@ export default [
     id: 5,
     name: 'Skull Crusher',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/skull-crusher.webp',
+    imageUrl: '/images/tier/weapons/weapon05.webp',
     imageAlt: 'Skull Crusher',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -65,7 +65,7 @@ export default [
     id: 6,
     name: 'Gladius Daggers',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/gladius-daggers.webp',
+    imageUrl: '/images/tier/weapons/weapon06.webp',
     imageAlt: 'Gladius Daggers',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -77,7 +77,7 @@ export default [
     id: 7,
     name: 'Scythe',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/scythe.webp',
+    imageUrl: '/images/tier/weapons/weapon07.webp',
     imageAlt: 'Scythe',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -89,7 +89,7 @@ export default [
     id: 8,
     name: 'Double Battle Axe',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/double-battle-axe.webp',
+    imageUrl: '/images/tier/weapons/weapon08.webp',
     imageAlt: 'Double Battle Axe',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -101,7 +101,7 @@ export default [
     id: 9,
     name: 'Falchion Sword',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/falchion-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon09.webp',
     imageAlt: 'Falchion Sword',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -113,7 +113,7 @@ export default [
     id: 10,
     name: 'Gladius Sword',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/gladius-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon10.webp',
     imageAlt: 'Gladius Sword',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -125,7 +125,7 @@ export default [
     id: 11,
     name: 'Rapier',
     tier: 'A',
-    imageUrl: '/images/tier-list/weapons/rapier.webp',
+    imageUrl: '/images/tier/weapons/weapon11.webp',
     imageAlt: 'Rapier',
     pros: [
       'Extremely strong weapon with great stats.',
@@ -138,7 +138,7 @@ export default [
     id: 12,
     name: 'Comically Large Spoon',
     tier: 'B',
-    imageUrl: '/images/tier-list/weapons/comically-large-spoon.webp',
+    imageUrl: '/images/tier/weapons/weapon12.webp',
     imageAlt: 'Comically Large Spoon',
     pros: [
       'Strong weapon that feels great with the right playstyle.'
@@ -151,7 +151,7 @@ export default [
     id: 13,
     name: 'Ironhand',
     tier: 'B',
-    imageUrl: '/images/tier-list/weapons/ironhand.webp',
+    imageUrl: '/images/tier/weapons/weapon13.webp',
     imageAlt: 'Ironhand',
     pros: [
       'Strong weapon that feels great with the right playstyle.'
@@ -164,7 +164,7 @@ export default [
     id: 14,
     name: 'Uchigatana',
     tier: 'B',
-    imageUrl: '/images/tier-list/weapons/uchigatana.webp',
+    imageUrl: '/images/tier/weapons/weapon14.webp',
     imageAlt: 'Uchigatana',
     pros: [
       'Strong weapon that feels great with the right playstyle.'
@@ -177,7 +177,7 @@ export default [
     id: 15,
     name: 'Tachi',
     tier: 'B',
-    imageUrl: '/images/tier-list/weapons/tachi.webp',
+    imageUrl: '/images/tier/weapons/weapon15.webp',
     imageAlt: 'Tachi',
     pros: [
       'Strong weapon that feels great with the right playstyle.'
@@ -191,7 +191,7 @@ export default [
     id: 16,
     name: 'Dagger',
     tier: 'C',
-    imageUrl: '/images/tier-list/weapons/dagger.webp',
+    imageUrl: '/images/tier/weapons/weapon16.webp',
     imageAlt: 'Dagger',
     pros: [
       'Usable weapon that works fine.'
@@ -204,7 +204,7 @@ export default [
     id: 17,
     name: 'Falchion Knife',
     tier: 'C',
-    imageUrl: '/images/tier-list/weapons/falchion-knife.webp',
+    imageUrl: '/images/tier/weapons/weapon17.webp',
     imageAlt: 'Falchion Knife',
     pros: [
       'Usable weapon that works fine.'
@@ -217,7 +217,7 @@ export default [
     id: 18,
     name: 'Hook',
     tier: 'C',
-    imageUrl: '/images/tier-list/weapons/hook.webp',
+    imageUrl: '/images/tier/weapons/weapon18.webp',
     imageAlt: 'Hook',
     pros: [
       'Usable weapon that works fine.'
@@ -230,7 +230,7 @@ export default [
     id: 19,
     name: 'Relevator',
     tier: 'C',
-    imageUrl: '/images/tier-list/weapons/relevator.webp',
+    imageUrl: '/images/tier/weapons/weapon19.webp',
     imageAlt: 'Relevator',
     pros: [
       'Usable weapon that works fine.'
@@ -243,7 +243,7 @@ export default [
     id: 20,
     name: 'Boxing Gloves',
     tier: 'C',
-    imageUrl: '/images/tier-list/weapons/boxing-gloves.webp',
+    imageUrl: '/images/tier/weapons/weapon20.webp',
     imageAlt: 'Boxing Gloves',
     pros: [
       'Usable weapon that works fine.'
@@ -257,7 +257,7 @@ export default [
     id: 21,
     name: 'Cutlass',
     tier: 'D',
-    imageUrl: '/images/tier-list/weapons/cutlass.webp',
+    imageUrl: '/images/tier/weapons/weapon21.webp',
     imageAlt: 'Cutlass',
     pros: [
       'Playable weapon.'
@@ -270,7 +270,7 @@ export default [
     id: 22,
     name: 'Long Sword',
     tier: 'D',
-    imageUrl: '/images/tier-list/weapons/long-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon22.webp',
     imageAlt: 'Long Sword',
     pros: [
       'Playable weapon.'
@@ -283,7 +283,7 @@ export default [
     id: 23,
     name: 'Crusader Sword',
     tier: 'D',
-    imageUrl: '/images/tier-list/weapons/crusader-sword.webp',
+    imageUrl: '/images/tier/weapons/weapon23.webp',
     imageAlt: 'Crusader Sword',
     pros: [
       'Playable weapon.'

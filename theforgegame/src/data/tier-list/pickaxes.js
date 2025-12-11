@@ -9,7 +9,7 @@ export default [
     luck: '+47.5%',
     cost: '500k Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/demonic.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe01.webp',
     imageAlt: 'Demonic Pickaxe',
     pros: [
       'Strongest Pickaxe in the game by far.'
@@ -29,7 +29,7 @@ export default [
     luck: '+46%',
     cost: '150k Gold',
     runeSlots: 2,
-    imageUrl: '/images/tier-list/pickaxes/magma.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe02.webp',
     imageAlt: 'Magma Pickaxe',
     pros: [
       'Second Strongest Pickaxe in the game.',
@@ -48,7 +48,7 @@ export default [
     luck: '+50%',
     cost: '125k Gold',
     runeSlots: 3,
-    imageUrl: '/images/tier-list/pickaxes/arcane.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe03.webp',
     imageAlt: 'Arcane Pickaxe',
     pros: [
       'Highest Luck stat that other pickaxes can\'t match.',
@@ -67,7 +67,7 @@ export default [
     luck: '+43',
     cost: '67.5k Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/mythril.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe04.webp',
     imageAlt: 'Mythril Pickaxe',
     suggestedRunes: ['Miner Shard', 'Blast Chip', 'Rage Mark'],
     pros: [
@@ -86,7 +86,7 @@ export default [
     luck: '+45%',
     cost: '98.5k Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/lightite.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe05.webp',
     imageAlt: 'Lightite Pickaxe',
     pros: [
       'Excellent power that can handle early late-game content.',
@@ -106,7 +106,7 @@ export default [
     luck: '+41%',
     cost: '37.5k Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/uranium.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe06.webp',
     imageAlt: 'Uranium Pickaxe',
     suggestedRunes: ['Miner Shard', 'Drain Edge', 'Ward Patch'],
     pros: [
@@ -126,7 +126,7 @@ export default [
     luck: '+35%',
     cost: '10k Gold',
     runeSlots: 2,
-    imageUrl: '/images/tier-list/pickaxes/cobalt.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe07.webp',
     imageAlt: 'Cobalt Pickaxe',
     suggestedRunes: ['Miner Shard', 'Blast Chip', 'Rage Mark'],
     pros: [
@@ -146,7 +146,7 @@ export default [
     luck: '+38',
     cost: '22.5k Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/titanium.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe08.webp',
     imageAlt: 'Titanium Pickaxe',
     suggestedRunes: ['Miner Shard', 'Rage Mark'],
     pros: [
@@ -168,7 +168,7 @@ export default [
     luck: '+25%',
     cost: '5,000 Gold',
     runeSlots: 2,
-    imageUrl: '/images/tier-list/pickaxes/platinum.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe09.webp',
     imageAlt: 'Platinum Pickaxe',
     suggestedRunes: ['Miner Shard', 'Rage Mark', 'Drain Edge'],
     pros: [
@@ -190,7 +190,7 @@ export default [
     luck: '+10%',
     cost: null,
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/stonewake.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe10.webp',
     imageAlt: 'Stonewake\'s Pickaxe',
     suggestedRunes: ['Miner Shard', 'Rage Mark', 'Drain Edge'],
     pros: [
@@ -212,7 +212,7 @@ export default [
     luck: '+5%',
     cost: '500 Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/iron.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe11.webp',
     imageAlt: 'Iron Pickaxe',
     pros: [
       'One of the stronger starter pickaxes in the game.',
@@ -232,7 +232,7 @@ export default [
     luck: '+15%',
     cost: '1.5k Gold',
     runeSlots: 1,
-    imageUrl: '/images/tier-list/pickaxes/gold.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe12.webp',
     imageAlt: 'Gold Pickaxe',
     suggestedRunes: ['Miner Shard', 'Blast Chip Rune', 'Rage Mark'],
     pros: [
@@ -253,7 +253,7 @@ export default [
     luck: '0%',
     cost: '150 Gold',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/bronze.webp',
+    imageUrl: '/images/tier/pickaxes/pickaxe13.webp',
     imageAlt: 'Bronze Pickaxe',
     pros: [
       'More power than the Stone Pickaxe.',
@@ -273,7 +273,7 @@ export default [
     luck: '0%',
     cost: 'Free',
     runeSlots: 0,
-    imageUrl: '/images/tier-list/pickaxes/stone.webp',
+    imageUrl: '',
     imageAlt: 'Stone Pickaxe',
     pros: [
       'Get for free at the start of the game.'

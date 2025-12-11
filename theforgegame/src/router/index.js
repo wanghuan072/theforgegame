@@ -197,7 +197,7 @@ const router = createRouter({
     {
       path: '/pickaxes-tier-list',
       name: 'tier-list-pickaxes',
-      component: () => import('../views/tier-list/TierListView.vue'),
+      component: () => import('../views/tier-list/PickaxesTierListView.vue'),
       meta: {
         title: 'The Forge Roblox Pickaxe Tier List - TheForgeGame',
         description: 'Complete The Forge Roblox Pickaxe Tier List. Find the best pickaxes ranked by power, luck, and value. Save gold by choosing the right pickaxe for your needs.',
@@ -207,7 +207,7 @@ const router = createRouter({
     {
       path: '/races-tier-list',
       name: 'tier-list-races',
-      component: () => import('../views/tier-list/TierListView.vue'),
+      component: () => import('../views/tier-list/RacesTierListView.vue'),
       meta: {
         title: 'The Forge Roblox Race Tier List - TheForgeGame',
         description: 'Complete The Forge Roblox Race Tier List. Rank all races by damage, survivability, mobility, and economy. Find the best race for your playstyle.',
@@ -217,7 +217,7 @@ const router = createRouter({
     {
       path: '/weapons-tier-list',
       name: 'tier-list-weapons',
-      component: () => import('../views/tier-list/TierListView.vue'),
+      component: () => import('../views/tier-list/WeaponsTierListView.vue'),
       meta: {
         title: 'The Forge Roblox Weapons Tier List - TheForgeGame',
         description: 'Complete The Forge Roblox Weapons Tier List. Rank all weapons by damage, attack speed, range, and versatility. Find the best weapon for combat.',
