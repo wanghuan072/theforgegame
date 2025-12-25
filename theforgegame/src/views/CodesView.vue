@@ -17,8 +17,8 @@
       <div class="container">
         <!-- Active Codes -->
         <div class="codes-group">
-          <h2 class="group-title">Active Codes</h2>
-          <p class="group-description">These <strong>The Forge Roblox Codes</strong> are currently confirmed working. Codes are case-sensitive (usually all caps). Use these codes to get free rerolls, coins, and other rewards in <router-link to="/" class="inline-link">The Forge Game</router-link>:</p>
+          <h2 class="group-title">Active Codes for The Forge Game</h2>
+          <p class="group-description">These <strong>The Forge Roblox Codes</strong> are currently confirmed working. Codes are case-sensitive (usually all caps). Use these codes to get free rerolls, coins, and other rewards in <router-link to="/" class="inline-link">The Forge Game</router-link>. Stay updated with the latest code game The Forge releases:</p>
           <div class="codes-grid">
             <div
               v-for="code in activeCodes"
@@ -53,8 +53,8 @@
 
         <!-- Recently Expired Codes -->
         <div class="codes-group" v-if="recentlyExpiredCodes.length > 0">
-          <h2 class="group-title">⚠️ Recently Expired (Worth a Try)</h2>
-          <p class="group-description">These codes worked in the past few days. Some players report they may be expired, but you can still try:</p>
+          <h2 class="group-title">⚠️ Recently Expired Codes in The Forge Game</h2>
+          <p class="group-description">These codes worked in the past few days. Some players report they may be expired, but you can still try. These code game The Forge entries might still work on certain servers:</p>
           <div class="codes-grid">
             <div
               v-for="code in recentlyExpiredCodes"
@@ -89,8 +89,8 @@
 
         <!-- Expired Codes -->
         <div class="codes-group" v-if="expiredCodes.length > 0">
-          <h2 class="group-title">❌ Expired Codes</h2>
-          <p class="group-description">The following codes are confirmed expired—no need to try them:</p>
+          <h2 class="group-title">❌ Expired Codes in The Forge Game</h2>
+          <p class="group-description">The following codes are confirmed expired—no need to try them. These code game The Forge entries are no longer valid:</p>
           <div class="expired-codes-list">
             <div
               v-for="code in expiredCodes"
@@ -105,12 +105,12 @@
 
         <!-- How to Use -->
         <div class="how-to-use">
-          <h2 class="section-title">💡 How to Use Codes</h2>
+          <h2 class="section-title">💡 How to Use Codes in The Forge Game</h2>
           <div class="steps-list">
             <div class="step-item">
               <div class="step-number">1</div>
               <div class="step-content">
-                <p>Launch the game.</p>
+                <p>Launch The Forge game.</p>
               </div>
             </div>
             <div class="step-item">
@@ -146,11 +146,11 @@
             <div class="faq-item">
               <div class="faq-question">
                 <span class="faq-icon">Q</span>
-                <h3>Are codes case-sensitive?</h3>
+                <h3>Are codes case-sensitive in The Forge game?</h3>
               </div>
               <div class="faq-answer">
                 <p>
-                  Yes. Most <strong>The Forge Roblox Codes</strong> are <strong>case-sensitive</strong> and usually <strong>all caps</strong>. Enter them exactly as shown, including punctuation and exclamation marks. Make sure you're entering the code correctly to redeem your rewards.
+                  Yes. Most <strong>The Forge Roblox Codes</strong> are <strong>case-sensitive</strong> and usually <strong>all caps</strong>. Enter them exactly as shown, including punctuation and exclamation marks. Make sure you're entering the code correctly to redeem your rewards in this code game The Forge.
                 </p>
               </div>
             </div>
@@ -189,11 +189,11 @@
             <div class="faq-item">
               <div class="faq-question">
                 <span class="faq-icon">Q</span>
-                <h3>How often are codes updated?</h3>
+                <h3>How often are codes updated for The Forge game?</h3>
               </div>
               <div class="faq-answer">
                 <p>
-                  We update <strong>The Forge Roblox Codes</strong> as soon as new codes drop—often around events, milestones, or major patches. Check back regularly to grab the latest working codes. You can also visit our <router-link to="/wiki" class="inline-link">wiki</router-link> for game information or use our <router-link to="/calculator" class="inline-link">calculator</router-link> to plan your builds.
+                  We update <strong>The Forge Roblox Codes</strong> as soon as new codes drop—often around events, milestones, or major patches. Check back regularly to grab the latest working codes in this code game The Forge. You can also visit our <router-link to="/wiki" class="inline-link">wiki</router-link> for game information or use our <router-link to="/calculator" class="inline-link">calculator</router-link> to plan your builds.
                 </p>
               </div>
             </div>

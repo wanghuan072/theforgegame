@@ -82,6 +82,40 @@
           </div>
         </div>
       </div>
+
+      <!-- Introduction Section -->
+      <section class="ores-intro-section">
+        <div class="intro-content">
+          <h2 class="intro-title">About Ores in The Forge</h2>
+          <p class="intro-text">
+            Ores are valuable resources that players collect using <a href="/wiki/pickaxes" class="inline-link">pickaxes</a> throughout The Forge. These materials serve as the foundation for crafting both <a href="/wiki/weapons" class="inline-link">weapons</a> and <a href="/wiki/armor" class="inline-link">armor</a>, making them essential for progression in the game.
+          </p>
+
+          <h3 class="intro-subtitle">Understanding Ore Properties</h3>
+          <p class="intro-text">
+            Each ore in The Forge has several key attributes that determine its value and effectiveness:
+          </p>
+          <ul class="intro-list">
+            <li><strong>Chance:</strong> A numerical value representing the ore's rarity level. Higher chance values indicate rarer ores that are more difficult to obtain.</li>
+            <li><strong>Rarity:</strong> Indicates how uncommon an ore is in the game world. Rarer ores typically provide better bonuses when used in crafting.</li>
+            <li><strong>Multiplier:</strong> Determines how much an ore enhances the base stats of forged weapons or armor. Higher multipliers result in more powerful crafted items.</li>
+            <li><strong>Price:</strong> The sell value of the ore. Unwanted ores can be sold to the Greedy Cey NPC, located in front of the Cave Entrance, for gold.</li>
+          </ul>
+
+          <h3 class="intro-subtitle">Collecting Ores</h3>
+          <p class="intro-text">
+            To gather ores, players must use their pickaxes to mine rocks found in specific areas across the game world. The type and quality of ores you collect depends on several factors:
+          </p>
+          <ul class="intro-list">
+            <li>The rarity distribution of ores in that location</li>
+            <li>Your character's Luck stat</li>
+            <li>The stats and quality of your equipped pickaxe</li>
+          </ul>
+          <p class="intro-text">
+            Higher-quality pickaxes can break rocks faster and have better luck bonuses, making it easier to gather rare ores. Additionally, enhancing your pickaxe and equipping <a href="/wiki/runes" class="inline-link">runes</a> can significantly increase your luck stat or ore yield, improving your chances of finding valuable materials.
+          </p>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -143,6 +177,132 @@ onMounted(() => {
 .desc-col {
   width: 220px;
   text-align: left;
+}
+
+/* Introduction Section */
+.ores-intro-section {
+  margin: 40px 0 60px;
+}
+
+.intro-content {
+  padding: 32px;
+  background: rgba(25, 20, 15, 0.8);
+  border: 1px solid rgba(255, 140, 66, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.intro-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 32px 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 140, 66, 0.2);
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
+
+.intro-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0;
+}
+
+.intro-list li {
+  font-size: 1rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.intro-list li::before {
+  content: '•';
+  color: var(--accent);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.intro-list li:last-child {
+  margin-bottom: 0;
+}
+
+.intro-list strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Inline Link Styles */
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.inline-link:hover {
+  color: var(--accent-soft);
+  border-bottom-color: var(--accent-soft);
+  text-decoration: none;
+}
+
+.inline-link:active {
+  color: var(--accent-gold);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .ores-intro-section {
+    margin: 30px 0 40px;
+  }
+
+  .intro-content {
+    padding: 24px;
+  }
+
+  .intro-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
+  .intro-subtitle {
+    font-size: 1.25rem;
+    margin: 24px 0 12px 0;
+    padding-bottom: 10px;
+  }
+
+  .intro-text {
+    font-size: 0.9rem;
+  }
+
+  .intro-list li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
 }
 </style>
 

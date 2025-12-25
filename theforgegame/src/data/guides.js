@@ -369,25 +369,267 @@ export default [
     `
   },
 
+  {
+    id: 7,
+    title: 'The Forge Roblox Runes Guide: How to Unlock, Attach & Optimize Runes',
+    description: 'Master the rune system in The Forge. Learn how to unlock rune slots, farm runes from enemies, attach them to your equipment, and create powerful rune combinations for maximum effectiveness.',
+    tags: ['Roblox', 'The Forge', 'Runes', 'Equipment Enhancement', 'Advanced Guide'],
+    publishDate: '2025-12-15',
+    imageUrl: '/images/guides/guide07.webp',
+    imageAlt: 'A weapon with multiple runes attached in The Forge Roblox game',
+    isHome: true,
+    seo: {
+      title: 'The Forge Roblox Runes Guide: Complete Rune System Walkthrough',
+      description: 'Complete guide to runes in The Forge Roblox. Learn how to unlock rune slots by enhancing equipment, farm runes from enemies, attach them at the Runemaker, and optimize your builds with powerful rune combinations.',
+      keywords: 'the forge roblox runes, the forge rune slots, the forge runemaker, the forge attach runes, the forge rune guide'
+    },
+    addressBar: '/the-forge-roblox-runes-guide',
+    detailsHtml: `
+      <p>Runes are one of the most powerful enhancement systems in <strong>The Forge</strong>, allowing you to customize your equipment with stat bonuses, special effects, and visual modifications. However, many players struggle with understanding how to unlock rune slots, where to find runes, and which combinations work best. This comprehensive guide will teach you everything you need to know about <strong>the forge roblox runes</strong> system.</p>
 
-  // {
-  //   id: 1,
-  //   title: '',
-  //   description: '',
-  //   tags: [''],
-  //   publishDate: '2025-12-09',
-  //   imageUrl: '/image/guides/guides01.webp',
-  //   imageAlt: '',
-  //   isHome: true,
-  //   seo: {
-  //     title: '',
-  //     description: '',
-  //     keywords: ''
-  //   },
-  //   addressBar: '/',
-  //   detailsHtml: `
-  //   `
-  // },
+      <h2>1. Understanding Rune Slots: The Foundation</h2>
+      <p>Before you can use <strong>the forge roblox runes</strong>, you need to unlock Rune Slots on your equipment. This is where many players get confused.</p>
+      <ul>
+        <li><strong>Standard Equipment:</strong> Most weapons and armor start with zero rune slots. You must enhance your equipment to <strong>+3</strong> to unlock the first Rune Slot.</li>
+        <li><strong>Pickaxes Exception:</strong> Some pickaxes (like the <strong>Cobalt Pickaxe</strong> and <strong>Mithril Pickaxe</strong>) come with rune slots already unlocked, making them immediately ready for rune attachment.</li>
+        <li><strong>Multiple Slots:</strong> Higher enhancement levels unlock additional slots. A +5 weapon might have 2-3 rune slots, allowing for powerful combinations.</li>
+      </ul>
+      <p><em>Tip: Don't waste your essences enhancing low-tier equipment just for rune slots. Save your resources for weapons and armor you plan to use long-term.</em></p>
+
+      <img src="/images/guides/guide07-01.webp" alt="The Forge Roblox Runes Guide: Understanding Rune Slots" width="50%" style="width: 50%;">
+
+      <h2>2. How to Enhance Equipment to Unlock Rune Slots</h2>
+      <p>To unlock your first rune slot, you need to visit the <strong>Enhancer NPC</strong> on the First Island (Stonewake's Cross). Here's the process:</p>
+      <ol>
+        <li><strong>Gather Essences:</strong> Essences are dropped by enemies when defeated. Different enemies drop different types of essences. Check your Index (Backpack → Index → Enemies tab) to see which enemies drop what.</li>
+        <li><strong>Visit the Enhancer:</strong> The Enhancer NPC is located near the Forge Stand on the First Island. Interact with him to open the enhancement menu.</li>
+        <li><strong>Select Your Equipment:</strong> Choose the weapon, armor piece, or pickaxe you want to enhance.</li>
+        <li><strong>Enhance to +3:</strong> Use your essences to enhance the equipment. Each enhancement level increases the base stats and, at +3, unlocks the first Rune Slot.</li>
+      </ol>
+      <p>Enhancement costs increase with each level, so make sure you have enough essences before starting. A failed enhancement attempt will consume your essences without providing a level, so it's important to have backup resources.</p>
+
+      <h2>3. Acquiring Runes: Where to Farm</h2>
+      <p>Runes are primarily obtained by defeating enemies throughout the game. Here's how to efficiently farm <strong>the forge roblox runes</strong>:</p>
+      <ul>
+        <li><strong>Check the Index:</strong> Open your Backpack and navigate to the Index tab. Go to the Enemies section to see which enemies drop specific runes and their drop chances. This is your best resource for planning your farming routes.</li>
+        <li><strong>Common Runes:</strong> Basic enemies like Zombies and Skeletons drop common runes like <strong>Miner Shard</strong> and <strong>Rage Mark</strong>. These are great for early-game equipment.</li>
+        <li><strong>Rare Runes:</strong> Elite enemies and bosses drop more powerful runes. The <strong>Goblin Cave</strong> is an excellent location for farming mid-tier runes once you've unlocked it.</li>
+        <li><strong>Boss Drops:</strong> Boss enemies have higher drop rates for legendary runes. Focus on farming bosses if you're looking for the most powerful effects.</li>
+      </ul>
+      <p><em>Pro Tip: Use the <strong>Index</strong> system to track which enemies you've defeated. The game rewards you for discovering new enemies, which can help fund your rune farming expeditions.</em></p>
+
+      <img src="/images/guides/guide07-02.webp" alt="The Forge Roblox Runes Guide: Acquiring Runes" width="50%" style="width: 50%;">
+
+      <h2>4. Attaching Runes: The Runemaker Process</h2>
+      <p>Once you have runes and unlocked slots, you need to visit the <strong>Runemaker NPC</strong> to attach them. The Runemaker can be found in two locations:</p>
+      <ul>
+        <li><strong>Stonewake's Cross:</strong> The main Runemaker shop on the First Island.</li>
+        <li><strong>Forgotten Kingdom:</strong> A second Runemaker location on the Second Island for convenience.</li>
+      </ul>
+      <p><strong>Step-by-Step Attachment Process:</strong></p>
+      <ol>
+        <li><strong>Interact with Runemaker:</strong> Talk to the Runemaker NPC to open the "Equipment Selection" screen.</li>
+        <li><strong>Select Equipment:</strong> Choose the piece of equipment that has unlocked rune slots (enhanced to +3 or higher).</li>
+        <li><strong>Choose Your Rune:</strong> Select which rune from your inventory you want to attach. The menu will show all available runes you own.</li>
+        <li><strong>Pay the Fee:</strong> The Runemaker charges gold for his services. Make sure you have enough money before attempting to attach.</li>
+        <li><strong>Click "Attach":</strong> Confirm the attachment. The rune will be permanently bound to your equipment, and its effects will activate immediately.</li>
+      </ol>
+      <p><strong>Important Notes:</strong></p>
+      <ul>
+        <li>Once attached, runes cannot be removed without destroying the equipment or using special items (if available).</li>
+        <li>You can attach multiple runes to equipment with multiple slots, but each slot can only hold one rune.</li>
+        <li>Some runes have visual effects that will change your equipment's appearance (e.g., Flame Spark Rune adds fire effects).</li>
+      </ul>
+
+      <h2>5. Best Rune Combinations for Different Builds</h2>
+      <p>Understanding which runes work well together is crucial for maximizing your equipment's potential. Here are some proven combinations:</p>
+
+      <h3>Mining Build (Pickaxes)</h3>
+      <ul>
+        <li><strong>Miner Shard + Blast Chip:</strong> Increases ore yield and adds explosion effects for faster mining.</li>
+        <li><strong>Miner Shard + Rage Mark:</strong> Boosts luck and mining speed, perfect for farming rare ores.</li>
+        <li><strong>Drain Edge + Ward Patch:</strong> Provides sustainability while mining in dangerous areas.</li>
+      </ul>
+
+      <h3>Combat Build (Weapons)</h3>
+      <ul>
+        <li><strong>Blast Chip + Rage Mark:</strong> High damage output with explosion effects and attack speed bonuses.</li>
+        <li><strong>Flame Spark + Blast Chip:</strong> Elemental damage combination that melts through enemy defenses.</li>
+        <li><strong>Drain Edge + Ward Patch:</strong> Balanced build with lifesteal and defensive capabilities.</li>
+      </ul>
+
+      <h3>Defensive Build (Armor)</h3>
+      <ul>
+        <li><strong>Ward Patch + Drain Edge:</strong> Maximum survivability with damage reduction and health regeneration.</li>
+        <li><strong>Ward Patch + Rage Mark:</strong> Defensive stats with offensive capabilities for balanced gameplay.</li>
+      </ul>
+
+      <h2>6. Selling Unwanted Runes</h2>
+      <p>If you have runes you don't need, you can sell them to the <strong>Greedy Cey NPC</strong>, located in front of the Cave Entrance. This is a great way to:</p>
+      <ul>
+        <li>Clear inventory space</li>
+        <li>Generate extra gold for equipment upgrades</li>
+        <li>Fund your enhancement costs</li>
+      </ul>
+      <p>However, be careful not to sell rare runes you might need later. It's often better to keep a collection of useful runes for future builds.</p>
+
+      <h2>7. Advanced Strategies and Tips</h2>
+      <ul>
+        <li><strong>Plan Your Builds:</strong> Before enhancing equipment, decide which runes you want to use. This prevents wasting essences on equipment that won't benefit from your available runes.</li>
+        <li><strong>Farm Before Enhancing:</strong> Collect the runes you want before unlocking slots. This ensures you can immediately attach them once slots are available.</li>
+        <li><strong>Experiment with Combinations:</strong> Don't be afraid to try different rune combinations. Some effects synergize in unexpected ways.</li>
+        <li><strong>Visual Customization:</strong> Remember that some runes change your equipment's appearance. If you care about aesthetics, test runes before permanently attaching them.</li>
+        <li><strong>Check Drop Rates:</strong> Use the Index to identify enemies with the best drop rates for specific runes. Focus your farming efforts on these enemies for efficiency.</li>
+      </ul>
+
+      <h2>8. Common Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Enhancing Low-Tier Equipment:</strong> Don't waste essences enhancing starter equipment just to test runes. Save resources for end-game gear.</li>
+        <li><strong>Attaching Runes Too Early:</strong> Wait until you have the runes you actually want before attaching. You can't easily remove them later.</li>
+        <li><strong>Ignoring Rune Slots on Pickaxes:</strong> Some pickaxes come with slots already unlocked. Take advantage of these immediately to boost your mining efficiency.</li>
+        <li><strong>Not Checking Drop Rates:</strong> Farming random enemies is inefficient. Always check the Index to find the best farming locations for specific runes.</li>
+      </ul>
+
+      <p>Mastering <strong>the forge roblox runes</strong> system is essential for reaching end-game content. With proper planning and understanding of the mechanics, you can create powerful builds that significantly enhance your gameplay experience. Start by enhancing your favorite weapon to +3, farm the runes you need, and visit the Runemaker to begin your journey toward optimized equipment.</p>
+    `
+  },
+
+  {
+    id: 8,
+    title: 'The Forge Roblox Forging Guide: How to Craft Perfect Weapons & Armor',
+    description: 'Master the art of forging in The Forge. Learn how to combine ores effectively, maximize your forge chances, master the minigame timing, and create legendary equipment with optimal stats using our calculator.',
+    tags: ['Roblox', 'The Forge', 'Forging', 'Crafting', 'Weapons', 'Armor', 'Strategy'],
+    publishDate: '2025-12-16',
+    imageUrl: '/images/guides/guide08.webp',
+    imageAlt: 'A player forging a weapon at the forge station in The Forge Roblox',
+    isHome: true,
+    seo: {
+      title: 'The Forge Roblox Forging Guide: Complete Crafting & Minigame Tutorial',
+      description: 'Complete guide to forging weapons and armor in The Forge Roblox. Learn ore combinations, forge chance mechanics, minigame strategies, and how to use the calculator to plan perfect builds.',
+      keywords: 'the forge roblox forging, the forge crafting guide, the forge minigame, the forge calculator, the forge weapon crafting'
+    },
+    addressBar: '/the-forge-roblox-forging-guide',
+    detailsHtml: `
+      <p>Forging is the heart of <strong>The Forge</strong>—it's how you create weapons, armor, and equipment that define your character's power. However, many players struggle with understanding ore combinations, forge chances, and the timing-based minigame. This comprehensive guide will teach you everything you need to know about <strong>the forge roblox forging</strong> system, from basic concepts to advanced optimization strategies.</p>
+
+      <h2>1. Understanding the Forging System Basics</h2>
+      <p>Forging in <strong>The Forge</strong> involves combining up to 4 different ore types to create weapons or armor. The system has two critical components:</p>
+      <ul>
+        <li><strong>Forge Chances:</strong> The percentage probability of crafting a specific item type (e.g., 60% chance for a Medium Helmet, 25% for a Katana). These chances are displayed on the left side of the forge interface.</li>
+        <li><strong>Multiplier:</strong> A value that determines how much the base stats of your crafted item are enhanced. Higher multipliers mean better stats. This is shown at the bottom of the forge interface.</li>
+      </ul>
+      <p>The key to successful forging is balancing these two factors: you want high forge chances for your desired item while maintaining a strong multiplier for better stats.</p>
+
+      <img src="/images/guides/guide08-01.webp" alt="The Forge Roblox Forging Guide: Understanding the Forging System" width="50%" style="width: 50%;">
+
+      <h2>2. How Ore Combinations Work</h2>
+      <p>Different ore combinations produce different results. Understanding this is crucial for <strong>the forge roblox forging</strong> success:</p>
+      <ul>
+        <li><strong>Ore Types Matter:</strong> Each ore has specific properties that influence what items you can craft. For example, certain ores favor weapons, while others favor armor pieces.</li>
+        <li><strong>Quantity Matters:</strong> The amount of each ore you use affects both forge chances and multiplier. Using more of a high-tier ore will increase your multiplier, but might decrease chances for specific item types.</li>
+        <li><strong>Rarity Impact:</strong> Higher rarity ores (like Diamonds, Rubies, Emeralds) generally provide better multipliers but may have different forge chance distributions.</li>
+        <li><strong>The 4-Ore Limit:</strong> You can only use up to 4 different ore types per forge attempt, but you can use any quantity of each type.</li>
+      </ul>
+      <p><em>Pro Tip: Use our <strong>Build Calculator</strong> to experiment with different ore combinations before spending your materials in-game. This saves resources and helps you find optimal recipes.</em></p>
+
+      <h2>3. Using the Calculator to Plan Your Builds</h2>
+      <p>Before you forge anything, always use the <strong>The Forge Roblox Calculator</strong> to plan your builds. Here's how to use it effectively:</p>
+      <ol>
+        <li><strong>Select Your Mode:</strong> Choose between Weapon or Armor mode depending on what you want to craft.</li>
+        <li><strong>Add Ores:</strong> Select up to 4 different ore types from the list. The calculator will show you the total ore count and multiplier in real-time.</li>
+        <li><strong>Adjust Quantities:</strong> Experiment with different quantities of each ore to see how it affects your forge chances and multiplier.</li>
+        <li><strong>Check Results:</strong> The calculator displays all possible forge outcomes with their percentages, helping you decide if the combination is worth it.</li>
+        <li><strong>Optimize:</strong> Try different combinations until you find one that maximizes your desired item's chance while maintaining a good multiplier.</li>
+      </ol>
+      <p>The calculator is an invaluable tool that prevents wasted resources and helps you create the best possible equipment.</p>
+
+      <h2>4. Mastering the Forging Minigame</h2>
+      <p>The actual forging process requires you to complete three sequential minigames. These are timing-based challenges that determine the quality of your crafted item:</p>
+      <ul>
+        <li><strong>Game 1 - The Shrinking Ring:</strong> A ring shrinks toward a center circle. Click exactly when the ring aligns with the inner circle for a "Perfect" result. Early or late clicks result in lower quality.</li>
+        <li><strong>Game 2 - The Second Challenge:</strong> Similar timing mechanics with different visual cues. Pay attention to the animation patterns.</li>
+        <li><strong>Game 3 - The Final Test:</strong> The last minigame that determines your final item quality. Perfect timing on all three games maximizes your stats.</li>
+      </ul>
+      <p><strong>Tips for Perfect Timing:</strong></p>
+      <ul>
+        <li><strong>Watch, Don't Anticipate:</strong> Wait for the visual cue rather than guessing when to click. The timing window is precise.</li>
+        <li><strong>Practice Makes Perfect:</strong> Start with cheaper ores to practice the timing before using valuable materials.</li>
+        <li><strong>Focus on Consistency:</strong> Try to click at the exact same moment each time. Muscle memory helps significantly.</li>
+        <li><strong>Reduce Distractions:</strong> Close other applications and focus solely on the minigame for better accuracy.</li>
+      </ul>
+
+      <img src="/images/guides/guide08-02.webp" alt="The Forge Roblox Forging Guide: Mastering the Minigame" width="50%" style="width: 50%;">
+
+      <h2>5. Strategies for Different Item Types</h2>
+      <p>Different equipment requires different forging strategies:</p>
+
+      <h3>Weapon Forging</h3>
+      <ul>
+        <li><strong>Focus on Damage:</strong> Prioritize ores that increase damage multipliers. High-tier ores like Mithril and Uranium are excellent choices.</li>
+        <li><strong>Balance Ore Types:</strong> Mix different ore rarities to maximize both forge chances for your desired weapon type and the overall multiplier.</li>
+        <li><strong>Weapon-Specific Ores:</strong> Some ores favor specific weapon types (e.g., Katanas vs. Axes). Experiment to find which combinations work best for your preferred weapon.</li>
+      </ul>
+
+      <h3>Armor Forging</h3>
+      <ul>
+        <li><strong>Defense Priority:</strong> Focus on ores that boost defensive stats. The multiplier directly affects your armor's protection value.</li>
+        <li><strong>Armor Type Selection:</strong> Light, Medium, and Heavy armor have different forge chance requirements. Adjust your ore mix to target your preferred armor category.</li>
+        <li><strong>Set Building:</strong> Plan multiple pieces (Helmet, Chestplate, etc.) with similar ore combinations for visual consistency and balanced stats.</li>
+      </ul>
+
+      <h2>6. Common Forging Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Wasting High-Tier Ores:</strong> Don't use your best ores on experimental builds. Test combinations in the calculator first, then use cheaper ores to practice the minigame.</li>
+        <li><strong>Ignoring Multiplier:</strong> Some players focus only on forge chances and ignore multiplier. Remember: a high chance with a low multiplier creates weak equipment.</li>
+        <li><strong>Poor Ore Balance:</strong> Using too much of one ore type can skew your results. Balance your quantities for optimal outcomes.</li>
+        <li><strong>Rushing the Minigame:</strong> Don't click too early out of impatience. Wait for the perfect timing window—it's worth the extra second.</li>
+        <li><strong>Not Using the Calculator:</strong> Forging blind wastes resources. Always plan your builds with the calculator before committing materials.</li>
+        <li><strong>Overlooking Ore Rarity:</strong> Mixing very high-tier ores with very low-tier ones dilutes your multiplier. Keep ore rarities relatively close for best results.</li>
+      </ul>
+
+      <h2>7. Advanced Optimization Techniques</h2>
+      <p>Once you understand the basics, these advanced techniques will help you create truly exceptional equipment:</p>
+      <ul>
+        <li><strong>Multiplier Maximization:</strong> Use 4 high-tier ores in balanced quantities to maximize your multiplier. This creates equipment with superior base stats.</li>
+        <li><strong>Targeted Forge Chances:</strong> Adjust your ore mix to push specific item chances above 50%. Higher chances mean more reliable results when forging multiple items.</li>
+        <li><strong>Resource Efficiency:</strong> Find the minimum ore combination that achieves your desired forge chance and multiplier. This saves materials for future forges.</li>
+        <li><strong>Batch Forging:</strong> Once you've perfected a recipe, forge multiple items in succession. This builds muscle memory for the minigame and creates consistent results.</li>
+        <li><strong>Visual Customization:</strong> Remember that ore colors affect your equipment's appearance. Plan your combinations not just for stats, but for aesthetics too.</li>
+      </ul>
+
+      <h2>8. The Relationship Between Forging and Enhancement</h2>
+      <p>Forging is only the first step. After crafting your equipment, you can enhance it further:</p>
+      <ul>
+        <li><strong>Base Stats Matter:</strong> A higher multiplier from forging means better base stats, which are then multiplied again during enhancement. Good forging creates a strong foundation.</li>
+        <li><strong>Enhancement Investment:</strong> Only enhance equipment that was forged with good multipliers. Enhancing low-multiplier items wastes essences.</li>
+        <li><strong>Rune Slot Unlocking:</strong> Enhanced equipment unlocks rune slots at +3. Plan your forging and enhancement together to maximize your equipment's potential.</li>
+      </ul>
+      <p>The best equipment comes from excellent forging combined with strategic enhancement and rune attachment.</p>
+
+      <h2>9. Farming Ores for Forging</h2>
+      <p>To forge effectively, you need a steady supply of ores. Here are efficient farming strategies:</p>
+      <ul>
+        <li><strong>Mining Locations:</strong> Different areas yield different ores. The Forgotten Kingdom has access to higher-tier ores than Stonewake's Cross.</li>
+        <li><strong>Pickaxe Selection:</strong> Use the best pickaxe you can afford. Higher mining power and luck stats increase your ore yield and rarity chances.</li>
+        <li><strong>Luck Optimization:</strong> Equip runes and skills that boost your luck stat. Higher luck means more rare ores, which are essential for high-multiplier forges.</li>
+        <li><strong>Enemy Farming:</strong> Some enemies drop ores when defeated. Balance mining and combat for maximum resource gathering.</li>
+        <li><strong>Goblin Cave Access:</strong> Once unlocked, the Goblin Cave provides access to rare crystals perfect for high-tier forging.</li>
+      </ul>
+
+      <h2>10. Putting It All Together: A Complete Forging Workflow</h2>
+      <p>Here's a step-by-step workflow for successful forging:</p>
+      <ol>
+        <li><strong>Plan Your Build:</strong> Use the calculator to determine your ideal ore combination for the item you want.</li>
+        <li><strong>Farm Materials:</strong> Gather the required ores based on your calculator results.</li>
+        <li><strong>Practice the Minigame:</strong> If you're new to forging, practice with cheaper ores first to master the timing.</li>
+        <li><strong>Execute the Forge:</strong> Combine your ores at the forge station and complete all three minigames with perfect timing.</li>
+        <li><strong>Enhance Your Equipment:</strong> Use essences to enhance your newly forged item to unlock rune slots and boost stats.</li>
+        <li><strong>Attach Runes:</strong> Visit the Runemaker to add runes that complement your equipment's stats and playstyle.</li>
+      </ol>
+
+      <p>Mastering <strong>the forge roblox forging</strong> system takes practice, but with the right knowledge and tools, you can create legendary equipment that gives you a significant advantage in combat and progression. Start by experimenting with the calculator, practice the minigame timing, and gradually work your way up to using high-tier ores for truly powerful equipment.</p>
+    `
+  },
 
 ]
 

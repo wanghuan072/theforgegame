@@ -78,6 +78,32 @@
           </div>
         </div>
       </div>
+
+      <!-- Introduction Section -->
+      <section class="weapons-intro-section">
+        <div class="intro-content">
+          <h2 class="intro-title">Understanding Weapons in The Forge</h2>
+          <p class="intro-text">
+            Weapons are among the most crucial elements in The Forge. They serve multiple purposes: engaging in combat within caves, completing quests, and generating income through sales. Choosing the right weapon and optimizing its stats can significantly impact your gameplay experience.
+          </p>
+
+          <h3 class="intro-subtitle">Crafting Your Weapons</h3>
+          <p class="intro-text">
+            Weapon forging stands as one of the core mechanics in The Forge. To create a weapon, you'll first need to venture into the caves and mine <a href="/wiki/ores" class="inline-link">ores</a> and other minerals. Once you've collected the necessary materials, head to the forge station and place your ores into the crafting interface.
+          </p>
+          <p class="intro-text">
+            The actual forging process requires you to complete three sequential minigames. Successfully completing these challenges will result in your newly crafted weapon. For comprehensive details on forging mechanics, strategies, and tips, refer to our <a href="/wiki/mechanics" class="inline-link">forging mechanics guide</a>.
+          </p>
+          <p class="intro-text">
+            The visual design of your weapon is directly influenced by the types and colors of ores used during crafting. Different ore combinations will produce unique weapon appearances, allowing for personalization of your arsenal. If you need assistance planning your weapon builds and calculating crafting probabilities, utilize our <a href="/calculator" class="inline-link">build calculator</a>.
+          </p>
+
+          <h3 class="intro-subtitle">Enhancing Your Weapons</h3>
+          <p class="intro-text">
+            After crafting a weapon, you can further improve it at the Enhancer stand located in the village. The enhancement process grants your weapon special bonuses, including increased base stats and higher sell value. To enhance a weapon, you'll need Essence, which can be obtained by defeating enemies or discovered while mining throughout the game world.
+          </p>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -137,6 +163,95 @@ onMounted(() => {
 .stats-col {
   width: 180px;
   text-align: left;
+}
+
+/* Introduction Section */
+.weapons-intro-section {
+  margin: 40px 0 60px;
+}
+
+.intro-content {
+  padding: 32px;
+  background: rgba(25, 20, 15, 0.8);
+  border: 1px solid rgba(255, 140, 66, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.intro-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.intro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 32px 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 140, 66, 0.2);
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Inline Link Styles */
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.inline-link:hover {
+  color: var(--accent-soft);
+  border-bottom-color: var(--accent-soft);
+  text-decoration: none;
+}
+
+.inline-link:active {
+  color: var(--accent-gold);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .weapons-intro-section {
+    margin: 30px 0 40px;
+  }
+
+  .intro-content {
+    padding: 24px;
+  }
+
+  .intro-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
+  .intro-subtitle {
+    font-size: 1.25rem;
+    margin: 24px 0 12px 0;
+    padding-bottom: 10px;
+  }
+
+  .intro-text {
+    font-size: 0.9rem;
+  }
 }
 </style>
 

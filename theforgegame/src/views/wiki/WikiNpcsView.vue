@@ -77,6 +77,22 @@
           </div>
         </div>
       </div>
+
+      <!-- Introduction Section -->
+      <section class="npcs-intro-section">
+        <div class="intro-content">
+          <h2 class="intro-title">About NPCs in The Forge</h2>
+          <p class="intro-text">
+            Throughout your journey in The Forge, you'll encounter various non-player characters (NPCs) scattered across different <a href="/wiki/locations" class="inline-link">locations</a>. These characters play crucial roles in your progression, offering essential services and resources that help you advance through the game.
+          </p>
+          <p class="intro-text">
+            NPCs serve multiple purposes: some provide new items and equipment, others explain game <a href="/wiki/mechanics" class="inline-link">mechanics</a> and systems, while many simply reward you with experience points (EXP) for completing tasks or engaging in dialogue. Understanding which NPCs offer what services can significantly streamline your gameplay experience.
+          </p>
+          <p class="intro-text">
+            Key NPCs include shopkeepers who sell <a href="/wiki/pickaxes" class="inline-link">pickaxes</a> and equipment, enhancement specialists who can upgrade your gear, and quest givers who provide valuable rewards. Make sure to interact with NPCs in each new area you discover to unlock their services and benefits.
+          </p>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -130,6 +146,80 @@ onMounted(() => {
 .source-col {
   width: 200px;
   text-align: left;
+}
+
+/* Introduction Section */
+.npcs-intro-section {
+  margin: 40px 0 60px;
+}
+
+.intro-content {
+  padding: 32px;
+  background: rgba(25, 20, 15, 0.8);
+  border: 1px solid rgba(255, 140, 66, 0.2);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.intro-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: var(--text);
+  background: linear-gradient(135deg, var(--text) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.intro-text {
+  font-size: 1rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+  margin: 0 0 16px 0;
+}
+
+.intro-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Inline Link Styles */
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.inline-link:hover {
+  color: var(--accent-soft);
+  border-bottom-color: var(--accent-soft);
+  text-decoration: none;
+}
+
+.inline-link:active {
+  color: var(--accent-gold);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .npcs-intro-section {
+    margin: 30px 0 40px;
+  }
+
+  .intro-content {
+    padding: 24px;
+  }
+
+  .intro-title {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+  }
+
+  .intro-text {
+    font-size: 0.9rem;
+  }
 }
 </style>
 
