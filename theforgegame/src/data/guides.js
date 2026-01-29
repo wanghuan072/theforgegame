@@ -631,5 +631,113 @@ export default [
     `
   },
 
+  {
+    id: 9,
+    title: 'The Forge Roblox Mining Guide: Ore Locations, Rarities & Pickaxe Strategy',
+    description: 'The ultimate mining guide for The Forge. Discover every ore location from Copper to Uranium, master the pickaxe progression tier list, and learn the best strategies to maximize your mining speed and luck.',
+    tags: ['Roblox', 'The Forge', 'Mining', 'Ores', 'Locations', 'Strategy', 'Guide'],
+    publishDate: '2026-01-20',
+    imageUrl: '/images/guides/guide09.webp',
+    imageAlt: 'A miner exploring the deep caverns in The Forge Roblox looking for rare ores',
+    isHome: true,
+    seo: {
+      title: 'The Forge Roblox Mining Guide: Ore Locations & Pickaxe Tier List',
+      description: 'Find every ore in The Forge Roblox with our complete location guide. Learn where to find Uranium, Mythril, and Diamond, plus the best pickaxe upgrade path and mining speed strategies.',
+      keywords: 'the forge roblox mining, ore locations, uranium location, pickaxe tier list, mining speed, the forge ores'
+    },
+    addressBar: '/the-forge-roblox-mining-guide',
+    detailsHtml: `
+      <p>Before you can craft legendary weapons or attach powerful runes, you need raw materials. Mining is the backbone of the economy in <strong>The Forge</strong>, but wandering aimlessly into the caves won't get you rich. This comprehensive guide covers every ore location, the mining power required to break them, and how to optimize your character for maximum resource gathering.</p>
+
+      <h2>1. Pickaxe Progression: The Tier List</h2>
+      <p>You cannot mine high-tier ores with a starter tool. Upgrading your pickaxe is the single most important investment you can make. Here is the progression path you should follow:</p>
+      <ul>
+        <li><strong>Wooden/Stone Pickaxe:</strong> The starter tools. Capable of mining Surface ores only (Stone, Coal, Copper).</li>
+        <li><strong>Iron Pickaxe:</strong> The first real upgrade. Allows you to break harder rocks in the upper Cave layers.</li>
+        <li><strong>Steel Pickaxe:</strong> Essential for efficient Gold and Silver farming. Increases mining speed significantly.</li>
+        <li><strong>Diamond Pickaxe:</strong> Required for the Deep Caverns. Can break almost all standard ores including Obsidian.</li>
+        <li><strong>Mythril/Godly Pickaxe:</strong> The endgame tools. These have massive "Mining Power" stats, allowing you to one-shot common nodes and break legendary ores like Uranium.</li>
+      </ul>
+      <p><em>Pro Tip: Always upgrade your pickaxe <strong>before</strong> spending money on weapon blueprints. A better pickaxe generates gold faster, speeding up your overall progression.</em></p>
+
+      <img src="/images/guides/guide09-01.webp" alt="The Forge Roblox Mining Guide: Pickaxe Tier List" width="50%" style="width: 50%;">
+
+      <h2>2. Ore Locations and Depth Guide</h2>
+      <p>Ores in <strong>The Forge</strong> are separated by zones and depth. Knowing where to look saves time:</p>
+
+      <h3>Zone 1: The Surface (Safe Zone)</h3>
+      <p>The starting area around the blacksmith shop.</p>
+      <ul>
+        <li><strong>Common:</strong> Stone, Coal.</li>
+        <li><strong>Uncommon:</strong> Copper, Tin.</li>
+        <li><strong>Best for:</strong> New players gathering materials for their first Iron Sword.</li>
+      </ul>
+
+      <h3>Zone 2: The Caves (Goblin Territory)</h3>
+      <p>Enter the cave mouth near the town. Enemies may spawn here, so bring a weapon.</p>
+      <ul>
+        <li><strong>Common:</strong> Iron, Coal.</li>
+        <li><strong>Rare:</strong> Gold, Silver, Sapphire.</li>
+        <li><strong>Very Rare:</strong> <strong>Diamond</strong> (Found deeper in the cave system).</li>
+        <li><strong>Strategy:</strong> This is the best mid-game farming spot for Gold to buy your Steel Pickaxe.</li>
+      </ul>
+
+      <h3>Zone 3: The Deep Caverns / Magma Zone</h3>
+      <p>Located at the bottom of the cave system. You will need high heat resistance or healing potions.</p>
+      <ul>
+        <li><strong>Common:</strong> Obsidian, Magma Rock.</li>
+        <li><strong>Rare:</strong> <strong>Mythril</strong>, Adamantite.</li>
+        <li><strong>Legendary:</strong> <strong>Uranium</strong> (The glowing green ore).</li>
+        <li><strong>Secret:</strong> Sunstone / Moonstone (These often have specific spawn conditions or extremely low drop rates).</li>
+      </ul>
+
+      <h2>3. The "Mining Power" vs. "Mining Speed" Mechanic</h2>
+      <p>Understanding your stats is crucial for efficiency:</p>
+      <ul>
+        <li><strong>Mining Power:</strong> Determines <em>what</em> you can break. If your power is too low, you will see a "Too Hard!" message when hitting a rock.</li>
+        <li><strong>Mining Speed:</strong> Determines <em>how fast</em> you break it. High speed allows you to clear nodes instantly.</li>
+      </ul>
+      <p>For endgame farming (Uranium/Mythril), you need a balance of both. Prioritize Power until you can break the ore, then stack Speed to farm it efficiently.</p>
+
+      <h2>4. Best Races for Miners</h2>
+      <p>If you want to be a dedicated smith or miner, your Race choice matters significantly (check our <strong>Race Guide</strong> for reroll tips):</p>
+      <ul>
+        <li><strong>Dwarf:</strong> The undisputed king of mining. Dwarves usually possess passive skills like <strong>+20% Mining Speed</strong> or a chance to receive double ores. This is the Meta race for this guide.</li>
+        <li><strong>Golem:</strong> often provides durability or strength buffs that can indirectly help with mining efficiency.</li>
+        <li><strong>Human:</strong> A balanced starter, but lacks specific mining advantages.</li>
+      </ul>
+
+      <img src="/images/guides/guide09-02.webp" alt="The Forge Roblox Mining Guide: Finding Rare Ores" width="50%" style="width: 50%;">
+
+      <h2>5. How to Find Uranium and Rare Gems</h2>
+      <p><strong>Uranium</strong> is currently one of the most sought-after materials for high-tier forging. Here is how to hunt it:</p>
+      <ol>
+        <li><strong>Go Deep:</strong> It only spawns in the lowest layers of the Magma Zone.</li>
+        <li><strong>Look for the Glow:</strong> Uranium has a distinct green radioactive glow that stands out against the dark magma rocks.</li>
+        <li><strong>Server Hopping:</strong> Rare nodes have long respawn timers. The most efficient strategy is to check the deep spawn points, mine any rares, and then switch servers to reset the nodes.</li>
+        <li><strong>Increase Luck:</strong> Equip items or runes that boost your "Luck" stat. Higher luck increases the probability of getting gems (Rubies, Emeralds) when mining standard stone nodes.</li>
+      </ol>
+
+      <h2>6. Maximizing Efficiency with Potions and Runes</h2>
+      <p>Don't mine dry! Use consumables and upgrades to speed up the process:</p>
+      <ul>
+        <li><strong>Mining Haste Potion:</strong> Purchasable from the Alchemist. These are cheap and increase your swing speed significantly. Always have one active.</li>
+        <li><strong>Efficiency Runes:</strong> Attach these to your pickaxe (if it has slots). They reduce the number of hits required to break a block.</li>
+        <li><strong>Fortune/Luck Runes:</strong> Essential for gem farming. They increase the drop rate of secondary items when breaking ores.</li>
+      </ul>
+
+      <h2>7. From Ore to Weapon: What to Keep?</h2>
+      <p>Not all ores are for forging. Here is a quick disposal guide:</p>
+      <ul>
+        <li><strong>Keep:</strong> Mythril, Uranium, Diamond, Gold (for crafting jewelry/high-tier gear).</li>
+        <li><strong>Sell:</strong> Excess Stone and Coal (unless you need fuel). Selling these in bulk is a decent way to get early game cash.</li>
+        <li><strong>Craft:</strong> Use mid-tier ores like Iron and Steel to craft "fodder" weapons to level up your smithing skill without wasting precious rare materials.</li>
+      </ul>
+
+      <h2>8. Summary</h2>
+      <p>Mining in <strong>The Forge</strong> is a progression ladder. Start small, invest all your early profits into better Pickaxes, and aim for the Dwarf race if you want to dominate the economy. Once you have a backpack full of Uranium and Mythril, head over to our <strong>Forging Guide</strong> to learn how to turn those rocks into god-tier weapons.</p>
+    `
+  },
+
 ]
 
